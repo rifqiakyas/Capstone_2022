@@ -3,17 +3,23 @@ import NavigationBar from './components/navbar';
 import Footer from './components/footer';
 import UploadImage from './components/upload';
 import Button from 'react-bootstrap/Button';
-import { useState, useEffect } from 'react';
+import { useState} from 'react';
 import Axios  from 'axios';
+import Table from 'react-bootstrap/Table';
 
 
-const axios = require("axios").default;
 
 function App() {
   const [image, setImage] = useState(false);
   const [preview, setPreview] = useState();
-  // const [data, setData] = useState();
-  //let confidence = 0;
+  const [data, setData] = useState();
+  let confidence = 0;
+  
+
+  if (data) {
+    confidence = (parseFloat(data.confidence) * 100).toFixed(2);
+  }
+
   console.log('image : ', image)
 
   const onSubmit = () => {
@@ -27,7 +33,8 @@ function App() {
       }
     })
     .then(res => {
-      console.log('post success', res);
+      setData(res.data)
+      
     })
     .catch(err => {
       console.log('err : ', err);
@@ -41,15 +48,30 @@ function App() {
     setPreview(URL.createObjectURL(file))
   }
 
-  // if (data) {
-  //   confidence = (parseFloat(data.confidence) * 100).toFixed(2);
-  // }
+
   return (
     
     <div>
         <NavigationBar/>      
         <UploadImage onChange={(e) => onImageUpload(e)} img ={preview}/>
         <Button variant="outline-primary" onClick={onSubmit}>Predict</Button>{' '}
+        {data &&
+      <Table striped bordered hover>
+
+      <tbody>
+        <tr>
+          <td>Disease</td>
+          <td>{data.class}</td>
+
+        </tr>
+        <tr>
+          <td>Confidence</td>
+          <td>{confidence}%</td>
+        </tr>
+
+      </tbody>
+    </Table>}
+    
     <Footer/>
     </div>
 
