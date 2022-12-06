@@ -1,0 +1,15 @@
+/* Style Navbar */
+.navbarr{
+    background-color: rgb(205, 205, 205);
+    margin-bottom: 20px;
+}
+
+/* Style upload gambar */
+
+.upload{
+    margin : 10px 30px 20px 30px;
+}
+
+.upload Button {
+    margin-top: 20px;
+}
