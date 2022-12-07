@@ -1,9 +1,9 @@
 function Footer(){
     return (
 
-        <footer className="footer-section">
+        <footer className="footer">
 
-        <div className="copyright-reserved">
+        <div className="copyright">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12">

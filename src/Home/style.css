@@ -1,0 +1,29 @@
+/* Style Navbar */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500&family=Poppins:wght@200;300&display=swap');
+.item img{
+    height: 500px;
+    width: 100px;
+}
+.item .caption h3 {
+    font-family: 'Poppins', sans-serif;
+    color: #E5D9B6;
+    font-weight: bold;
+    font-size: 2.8rem;
+    margin-top: 10rem;
+
+}
+
+.item p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 300;
+    color: #E5D9B6;
+}
+
+/* Style upload gambar */
+
+.upload{
+    margin : 10px 30px 20px 30px;
+}
+
