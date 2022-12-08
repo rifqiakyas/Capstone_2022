@@ -1,47 +1,68 @@
 import React from 'react';
 import '../About/style.css'
-import bgTomato1 from '../Home/tomato3.jpg';
-import bgTomato2 from '../Home/tomato2.jpg';
 import NavigationBar from '../components/navbar';
 import Footer from '../components/footer';
-import Carousel from 'react-bootstrap/Carousel';
-
+import Card from 'react-bootstrap/Card';
+import avtMan1 from '../About/boy.png';
+import avtMan2 from '../About/man.png';
+import avtWoman1 from '../About/woman1.png';
+import avtWoman2 from '../About/woman.png';
+import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
 
 function About() {
   
   return (
 
     <div>
-    <NavigationBar/>  
-   
-    <Carousel>
-      <Carousel.Item className ='item'interval={1000}>
-        <img
-          className="d-block w-100 h-30"
-          src={bgTomato1}
-          alt="First slide"
-        />
-        <Carousel.Caption className ='caption'>
-          <h3>Tomato Disease Classification</h3>
-          <p>Deteksi dini penyakit yang menyerang tanaman tomat anda</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item className ='item' interval={500}>
-        <img
-          className="d-block w-100 h-30"
-          src={bgTomato2}
-          alt="Second slide"
-        />
-        <Carousel.Caption className ='caption'>
-          <h3>Tomato Disease Classification</h3>
-          <p>Deteksi dini penyakit yang menyerang tanaman tomat anda</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-    </Carousel>
-        
-    <Footer/>
-  
-    
+      <NavigationBar/> 
+
+      <div className='dataMember'>
+        <h2>Capstone Grup C22-202</h2>
+        <Row xs={1} md={4} className="g-4"> 
+        <Col>
+              <Card>
+                <Card.Img variant="top" src={avtWoman1} />
+                <Card.Body className='namaMember'>
+                  <Card.Title>Hana Octavia T Malo </Card.Title>
+                  <Card.Title>(M128Y0215)</Card.Title>
+                </Card.Body>
+              </Card>
+              </Col>
+        <Col>
+              <Card>
+                <Card.Img variant="top" src={avtMan1} />
+                <Card.Body className='namaMember'>
+                  <Card.Title>Rifqi Akyas Hifdzi Rahman</Card.Title>
+                  <Card.Title>(M267X0598)</Card.Title>
+                </Card.Body>
+              </Card>
+            </Col>
+            
+            
+            <Col>
+              <Card>
+                <Card.Img variant="top" src={avtWoman2} />
+                <Card.Body className='namaMember'>
+                  <Card.Title>Fauziah Umri</Card.Title>
+                  <Card.Title>(M128Y0212)</Card.Title>
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col>
+              <Card>
+                <Card.Img variant="top" src={avtMan2} />
+                <Card.Body className='namaMember'>
+                  <Card.Title>Leonardo Davine Wowor</Card.Title>
+                  <Card.Title>(M309X0813)</Card.Title>
+                </Card.Body>
+              </Card>
+            </Col>
+
+        </Row>
+      </div>
+
+      <Footer/>
 
     </div>
 
