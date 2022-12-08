@@ -1,0 +1,15 @@
+/* Style Navbar */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500&family=Poppins:wght@200;300&display=swap');
+.cardTomato{
+    margin: 20px 20px 20px 20px;
+    font-family: Nunito, sans-serif;
+}
+
+.cardTomato .cardTitle{
+    background-color: #A4BE7B;
+}
+
+.cardTomato .referensi{
+    font-style: italic;
+}

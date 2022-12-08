@@ -14,6 +14,8 @@ function NavigationBar() {
           
           <Nav className="navRight ">
             <Nav.Link ><Link to='/predict' className='navLink'>Predict</Link></Nav.Link>
+            <Nav.Link ><Link to='/tomato' className='navLink'>Tomato</Link></Nav.Link>
+            <Nav.Link ><Link to='/about' className='navLink'>About</Link></Nav.Link>
             
           </Nav>
         </Container>
