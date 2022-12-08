@@ -21,9 +21,28 @@
     color: #E5D9B6;
 }
 
-/* Style upload gambar */
+.item Button  {
+    text-decoration: none;
+    margin: auto;
+    width: 10em;
+    margin: 10px 50% 10px 40%;
+    top: 35%; 
+    border: none;
+    background-color: #AC4425 ;
+    color: #379237;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
 
-.upload{
-    margin : 10px 30px 20px 30px;
 }
 
+.item Button .btnLink{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.item Button:Hover {
+    box-shadow: 0 0 40px 40px #379237 inset;
+    color: #ffffff;
+    border: 2px solid #379237;
+
+}

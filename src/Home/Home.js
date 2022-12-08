@@ -5,6 +5,8 @@ import bgTomato2 from '../Home/tomato2.jpg';
 import NavigationBar from '../components/navbar';
 import Footer from '../components/footer';
 import Carousel from 'react-bootstrap/Carousel';
+import Button from 'react-bootstrap/Button';
+import {Link} from 'react-router-dom'
 
 
 function Home() {
@@ -24,7 +26,9 @@ function Home() {
         <Carousel.Caption className ='caption'>
           <h3>Tomato Disease Classification</h3>
           <p>Deteksi dini penyakit yang menyerang tanaman tomat anda</p>
+          <Button  variant="outline-primary"><Link to='/predict' className='btnLink'>Mulai Prediksi</Link></Button>
         </Carousel.Caption>
+        
       </Carousel.Item>
       <Carousel.Item className ='item' interval={500}>
         <img
@@ -35,7 +39,9 @@ function Home() {
         <Carousel.Caption className ='caption'>
           <h3>Tomato Disease Classification</h3>
           <p>Deteksi dini penyakit yang menyerang tanaman tomat anda</p>
+          <Button variant="outline-primary"><Link to='/predict' className='btnLink'>Mulai Prediksi</Link></Button>
         </Carousel.Caption>
+        
       </Carousel.Item>
     </Carousel>
         
