@@ -65,6 +65,10 @@ function Predict() {
           <td>Confidence</td>
           <td>{confidence}%</td>
         </tr>
+        <tr>
+          <td>Prevention</td>
+          <td>{data.prevention}</td>
+        </tr>
 
       </tbody>
     </Table>}
