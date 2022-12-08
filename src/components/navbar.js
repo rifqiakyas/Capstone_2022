@@ -10,7 +10,7 @@ function NavigationBar() {
     <>
       <Navbar className='navbar'>
         <Container>
-          <Navbar.Brand ><Link to='/' className='navBrand'>TomatoDieses</Link></Navbar.Brand>
+          <Navbar.Brand ><Link to='/' className='navBrand'>Tomato Disease</Link></Navbar.Brand>
           
           <Nav className="navRight ">
             <Nav.Link ><Link to='/predict' className='navLink'>Predict</Link></Nav.Link>
