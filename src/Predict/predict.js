@@ -16,6 +16,7 @@ function Predict() {
     confidence = (parseFloat(data.confidence) * 100).toFixed(2);
   }
 
+
   const onSubmit = () => {
 
       const formData = new FormData();
@@ -35,12 +36,18 @@ function Predict() {
     })
     
   }
-
+  
   const onImageUpload = (e) => {
     const file =  e.target.files[0];
     setImage(file)
     setPreview(URL.createObjectURL(file))
   }
+
+  const clearData = () => {
+    setData(null);
+    setImage(false);
+    setPreview(null);
+  };
 
 
   return (
@@ -52,27 +59,33 @@ function Predict() {
         
         <Button variant="outline-primary" onClick={onSubmit} >Predict</Button>{' '}
         
+        <div className='tabel'>
+
+          {data &&
+          <Table className='tabelHasil'>
+
+            <tbody>
+              <tr className='tabelWarna'>
+                <td>Disease</td>
+                <td>{data.class}</td>
+
+              </tr>
+              <tr>
+                <td>Confidence</td>
+                <td>{confidence}%</td>
+              </tr>
+              <tr className='tabelWarna'>
+                <td>Prevention</td>
+                <td>{data.prevention}</td>
+              </tr>
+
+            </tbody>
+          </Table>}
+        </div>
+
         {data &&
-      <Table striped bordered hover>
+        <Button variant="outline-primary" onClick={clearData} >Prediksi lagi</Button>}
 
-      <tbody>
-        <tr>
-          <td>Disease</td>
-          <td>{data.class}</td>
-
-        </tr>
-        <tr>
-          <td>Confidence</td>
-          <td>{confidence}%</td>
-        </tr>
-        <tr>
-          <td>Prevention</td>
-          <td>{data.prevention}</td>
-        </tr>
-
-      </tbody>
-    </Table>}
-    
     </div>
 
   );
