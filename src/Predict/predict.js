@@ -9,13 +9,7 @@ function Predict() {
   const [image, setImage] = useState(false);
   const [preview, setPreview] = useState();
   const [data, setData] = useState();
-  let confidence = 0;
   
-
-  if (data) {
-    confidence = (parseFloat(data.confidence) * 100).toFixed(2);
-  }
-
 
   const onSubmit = () => {
 
@@ -70,10 +64,7 @@ function Predict() {
                 <td>{data.class}</td>
 
               </tr>
-              <tr>
-                <td>Confidence</td>
-                <td>{confidence}%</td>
-              </tr>
+
               <tr className='tabelWarna'>
                 <td>Prevention</td>
                 <td>{data.prevention}</td>
