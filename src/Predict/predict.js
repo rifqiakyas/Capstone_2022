@@ -16,7 +16,7 @@ function Predict() {
       const formData = new FormData();
       formData.append("file", image);
 
-    Axios.post('http://localhost:8000/predict', formData, {
+    Axios.post('http://localhost:8080/predict', formData, {
       headers: {
         'content-type' : 'multipart/form-data'
       }

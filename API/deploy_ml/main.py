@@ -18,7 +18,7 @@ app.add_middleware(
     allow_headers=["*"]
 
 )
-#model = tf.keras.models.load_model("C:/Sem 5/Studi Independen/Machine Learning/Tomato/deploy/model")
+
 model = tf.keras.models.load_model("C:/Sem 5/Studi Independen/Front-End/TomatoCaptone/tomatofe2/API/deploy/model")
 classNames = ['Bacterial_spot', 'Early_blight', 'Late_blight', 'Leaf_Mold', 'Septoria_leaf_spot', 'Spider_mites Two-spotted_spider_mite', 'Target_Spot', 'Tomato_Yellow_Leaf_Curl_Virus', 'Tomato_mosaic_virus', 'healthy', 'powdery_mildew']
 classPrevent = ['Berdasarkan foto yang diunggah tanaman anda terdeteksi Bacterial_spot, ditandai dengan luka kecil berwarna kuning kehijauan pada daun muda pada tepian atau ujung daun. Untuk pengendaliannya, selalu pertimbangkan pendekatan terpadu dengan tindakanpencegahan bersama dengan perlakuan hayati jika tersedia.Bakterisida yang mengandung tembaga dapat digunakansebagai pelindung dan memberikan kontrol terhadapsebagian penyakit. Pemberiannya dilakukan pada tanda-tanda awal penyakit dan selanjutnya pada selang 10 hingga 14 hari ketika kondisi hangat dan lembab.', 
@@ -61,4 +61,4 @@ async def predict(
 
 
 if __name__ =="__main__":
-    uvicorn.run(app, host='localhost', port=8000)
+    uvicorn.run(app, host='localhost', port=8080)
