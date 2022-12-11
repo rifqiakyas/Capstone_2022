@@ -30,40 +30,28 @@ Selama enam minggu pengerjaan, kami berhasil membuat aplikasi berbasis *web* yan
 
 #### **Screenshots**
 Halaman utama
-
-![](Aspose.Words.036d7826-fc2d-42fd-97d3-ac8d3e5854d4.001.png)
-
+![HalamanUtama](https://user-images.githubusercontent.com/88828572/206892494-2bfa6360-5307-4987-9251-254fdca2cfb9.jpg)
 
 Halaman Predict
-
-![](Aspose.Words.036d7826-fc2d-42fd-97d3-ac8d3e5854d4.002.png)
-
-![](Aspose.Words.036d7826-fc2d-42fd-97d3-ac8d3e5854d4.003.png)
+![HalamanPrediksi](https://user-images.githubusercontent.com/88828572/206892493-023a91f2-551f-4c99-981b-de48c8c156c4.jpg)
+![HalamanPrediksi2](https://user-images.githubusercontent.com/88828572/206892488-32c47770-4ce5-4a11-a3eb-b8ec75906ac1.jpg)
 
 Halaman Tomato
+![HalamanTomato](https://user-images.githubusercontent.com/88828572/206892485-b1fcdb19-38df-4f78-a737-c4118a79c88a.jpg)
 
-![](Aspose.Words.036d7826-fc2d-42fd-97d3-ac8d3e5854d4.004.png)
+Halaman About
+![HalamanAbout](https://user-images.githubusercontent.com/88828572/206892498-164edbc2-59e7-40cc-a058-5f9177c73b18.jpg)
 
-Halaman About![](Aspose.Words.036d7826-fc2d-42fd-97d3-ac8d3e5854d4.005.png)
 
 Akurasi Model
-
-![](Aspose.Words.036d7826-fc2d-42fd-97d3-ac8d3e5854d4.006.png)
-
-
-
-
-
-
-
-
-
-
+![AkurasiModel](https://user-images.githubusercontent.com/88828572/206892500-7ee114bb-1c0f-422e-ace6-ddfcc9aa8488.jpg)
 
 
 API
+![API](https://user-images.githubusercontent.com/88828572/206892480-0ade3d42-8f17-42c6-9191-d6c329c05479.jpg)
 
-![](Aspose.Words.036d7826-fc2d-42fd-97d3-ac8d3e5854d4.007.png)
+
+
 # **Deployed Link:**
 #### <https://bit.ly/3uFahX3>
 #### **Github Repo Link:** 
