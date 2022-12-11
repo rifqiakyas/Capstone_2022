@@ -28,6 +28,12 @@ Halaman *web* yang dibangun :
 
 Selama enam minggu pengerjaan, kami berhasil membuat aplikasi berbasis *web* yang dapat mengidentifikasi penyakit pada tanaman tomat dan memberikan cara penanggulangan terhadap penyakit tersebut. Kami juga mendesain aplikasi ini agar mudah digunakan, sehingga petani mendapatkan pengalaman yang baik ketika menggunakan aplikasi ini.
 
+**Keunggulan Aplikasi:**
+
+- Menampilkan hasil prediksi berupa penyakit pada tanaman tomat dan cara menanggulanginya
+- Memberikan info terkait cara budidaya dan merawat tanaman tomat
+- Mudah digunakan
+
 #### **Screenshots**
 Halaman utama
 ![HalamanUtama](https://user-images.githubusercontent.com/88828572/206892494-2bfa6360-5307-4987-9251-254fdca2cfb9.jpg)
