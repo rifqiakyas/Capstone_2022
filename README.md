@@ -81,4 +81,9 @@ API
 
 - #### **Dataset Link : <https://www.kaggle.com/datasets/cookiefinder/tomato-disease-multiple-sources>**
 
-- #### **Academic Paper Link:**
+- #### **User Guide**
+Aplikasi dan API yang dibangun masih local
+Link website : <http://localhost:3000>
+API url : <http://localhost:3000>
+
+
