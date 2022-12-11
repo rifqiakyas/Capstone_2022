@@ -82,8 +82,18 @@ API
 - #### **Dataset Link : <https://www.kaggle.com/datasets/cookiefinder/tomato-disease-multiple-sources>**
 
 - #### **User Guide**
+
 Aplikasi dan API yang dibangun masih local
+
 Link website : <http://localhost:3000>
+
 API url : <http://localhost:3000>
 
-
+Cara membuka aplikasi :
+1. API
+  - Buka main.py di folder ..\API\deploy_ml
+  - Instal library fastapi, uvicorn, tensorflow, pillow, numpy menggunakan ‘pip install’
+  - Jika sudah terinstall, jalankan API
+2. Aplikasi Web
+  - Install npm install –from-lock-json
+  - Jalankan ‘npm start’ pada terminal
