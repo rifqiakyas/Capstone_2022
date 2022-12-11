@@ -27,3 +27,70 @@ Halaman *web* yang dibangun :
 - Sebuah halaman yang berisi info tentang tanaman tomat, seperti cara budidaya tomat.
 
 Selama enam minggu pengerjaan, kami berhasil membuat aplikasi berbasis *web* yang dapat mengidentifikasi penyakit pada tanaman tomat dan memberikan cara penanggulangan terhadap penyakit tersebut. Kami juga mendesain aplikasi ini agar mudah digunakan, sehingga petani mendapatkan pengalaman yang baik ketika menggunakan aplikasi ini.
+
+#### **Screenshots**
+Halaman utama
+
+![](Aspose.Words.036d7826-fc2d-42fd-97d3-ac8d3e5854d4.001.png)
+
+
+Halaman Predict
+
+![](Aspose.Words.036d7826-fc2d-42fd-97d3-ac8d3e5854d4.002.png)
+
+![](Aspose.Words.036d7826-fc2d-42fd-97d3-ac8d3e5854d4.003.png)
+
+Halaman Tomato
+
+![](Aspose.Words.036d7826-fc2d-42fd-97d3-ac8d3e5854d4.004.png)
+
+Halaman About![](Aspose.Words.036d7826-fc2d-42fd-97d3-ac8d3e5854d4.005.png)
+
+Akurasi Model
+
+![](Aspose.Words.036d7826-fc2d-42fd-97d3-ac8d3e5854d4.006.png)
+
+
+
+
+
+
+
+
+
+
+
+
+API
+
+![](Aspose.Words.036d7826-fc2d-42fd-97d3-ac8d3e5854d4.007.png)
+# **Deployed Link:**
+#### <https://bit.ly/3uFahX3>
+#### **Github Repo Link:** 
+#### <https://github.com/rifqiakyas/Capstone_2022>
+#### **10-Min Video Presentation Link:** 
+<https://youtu.be/odndlR0l3u0> 
+#### **Slide Presentation Link:** 
+<https://bit.ly/3FHRq4e>
+
+#### **Other Resources Link:**
+- #### **Library or external repository/API used:**
+
+
+|**Library / API**|**Version**|**Link**|
+| :-: | :-: | :-: |
+|TensorFlow|<p>2.10.0</p><p></p>|<https://www.tensorflow.org/>|
+|mathplotlib|<p>3.5.2</p><p></p>|<https://matplotlib.org/>|
+|pandas|<p>1.4.4</p><p></p>|<https://pandas.pydata.org/>|
+|FastAPI|0.88.0|<https://fastapi.tiangolo.com/>|
+|uvicorn|0.20.0|<https://www.uvicorn.org/>|
+|react-router-dom|6.4.5|<https://www.npmjs.com/package/react-router-dom>|
+|react-bootstrap/Navbar|2.7.0|<https://react-bootstrap.netlify.app/components/navbar/#rb-docs-content> |
+|react-bootstrap/carousel\_slider|2.7.0|<https://react-bootstrap.netlify.app/components/carousel/#rb-docs-content>[ ](https://pub.dev/packages/carousel_slider)|
+|react-bootstrap/buttons|2.7.0|<https://react-bootstrap.netlify.app/components/buttons/#rb-docs-content> |
+|react-bootstrap/cards|0.13.4|<https://react-bootstrap.netlify.app/components/cards/#rb-docs-content> |
+|google\_fonts|2.0.0|<p><https://fonts.google.com/></p><p></p>|
+
+- #### **Dataset Link : <https://www.kaggle.com/datasets/cookiefinder/tomato-disease-multiple-sources>**
+
+- #### **Academic Paper Link:**
